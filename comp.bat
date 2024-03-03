@@ -1,0 +1,2 @@
+@echo on
+g++ -static -Wall -Wextra -Wpedantic -Werror -Ofast -m64 -std=c++2a -o ProjectFix engine/*.c game/*.cpp -I vendor\include -L vendor\lib -lopengl32 -lglfw3 -lm -lpthread -lgdi32 -luser32 -lkernel32 -llua54
